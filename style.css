@@ -3,14 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: grey;
+}
 
 .container {
   text-align: center;
 }
 
 main {
-  background-color: red;
-  width: 800px;
+  width: 1200px;
   height: 200px;
   margin: 0 auto;
   margin-top: 35px;
@@ -21,25 +23,29 @@ main {
 }
 
 section {
-  background-color: blue;
   width: 500px;
-  height: 390px;
+  height: 420px;
   display: flex;
   flex-direction: column;
+  border: 1px solid;
 }
 section .first {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: chartreuse;
+  background-color: beige;
+  height: 35px;
 }
-/* section .second {
-  background-color: chocolate;
-} */
+
 section .second img {
   align-items: center;
   width: 290px;
 }
-section .third p {
-  width: 100px;
+section .second {
+  text-align: center;
+}
+section .second p {
+  margin-top: 35px;
+  background-color: beige;
+  padding: 10px;
 }
